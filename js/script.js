@@ -5,7 +5,9 @@ Random Quote Generator
 /*** 
  * `quotes` array 
 ***/
-const quotes = 5;
+const quotes = [];
+quotes.push("viewtiful","skips","daftpunk","onepiece");
+console.log(quotes.length);
 
 /***
  * `getRandomQuote` function
@@ -19,7 +21,7 @@ function getRandomQuote(){
  * `printQuote` function
 ***/
 function printQuote(){
-    
+
 }
 
 
@@ -27,13 +29,5 @@ function printQuote(){
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!
 ***/
-// "Algun dia tocinito"
-//-Gorila Albino alias Skips
-
-//"Around the world, around the world, around the world"
-//-Daft Punk
-
-//"Henshing A go go Baby!"
-//-Joe
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
