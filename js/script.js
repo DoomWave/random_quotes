@@ -1,27 +1,49 @@
 /******************************************
 Random Quote Generator
 ******************************************/
-
-/*** 
+alert("its working!")
+/* 
  * `quotes` array 
 ***/
-const quotes = [];
-// quotes.push("viewtiful","skips","daftpunk","onepiece");
-var viewtiful = quotes
-console.log("Joe", viewtiful)
-var skips =  quotes
-console.log("gorila", skips)
-var daftpunk = quotes
-console.log("punkdaft", daftpunk)
-var onepiece = quotes
-console.log("joyboy", onepiece)
-
+const quotes = [
+    {
+        quote:"algun dia tocinito",
+        source: "gorila albino, alias skips",
+        citation: "Facebook Marketplace",
+        year: "2021"
+},
+    {
+        quote:"Henshin a go go baby!",
+        source: "Viewtiful Joe",
+        citation: "Viewtiful Joe",
+        year: "2001",
+    },
+    {
+        quote:"Around the world,Around the world, around the world",
+        source: "Daft Punk",
+        citation: "Around The World",
+        year: "2013",
+    },
+    {   
+        quote:"Gum-Gum Pistol",
+        source:"Monkey D. Luffy",
+        citation: "One Piece",
+        year: "1997",
+    },
+    {
+        quote:"Praise the sun",
+        source: "Solaire of Astora",
+        citation: "Dark Souls",
+        year: "2011",
+    },
+];
+console.log(quotes)
 /***
  * `getRandomQuote` function
 ***/
-function getRandomQuote(){
-    return Math.floor(Math.random() * max);
-}
+// function getRandomQuote(){
+//     return Math.floor(Math.random() * max);
+// }
 
 
 
@@ -37,6 +59,6 @@ function printQuote(){
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!
 ***/
-setInterval();
+// setInterval();
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
