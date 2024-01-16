@@ -37,6 +37,6 @@ function printQuote(){
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!
 ***/
-
+setInterval();
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
