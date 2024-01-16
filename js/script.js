@@ -1,7 +1,7 @@
 /******************************************
 Random Quote Generator
 ******************************************/
-alert("its working!")
+// alert("its working!")
 /* 
  * `quotes` array 
 ***/
@@ -37,15 +37,17 @@ const quotes = [
         year: "2011",
     },
 ];
-console.log(quotes)
+// console.log(quotes)
 /***
  * `getRandomQuote` function
 ***/
-// function getRandomQuote(){
+function getRandomQuote(){
+    var randomNumber = Math.floor(0 + Math.random() * quotes.length)
+    // console.log(randomNumber)
+    return quotes[randomNumber]
 //     return Math.floor(Math.random() * max);
-// }
-
-
+}
+console.log(getRandomQuote());
 
 /***
  * `printQuote` function
