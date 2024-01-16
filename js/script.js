@@ -7,14 +7,14 @@ Random Quote Generator
 ***/
 const quotes = [];
 // quotes.push("viewtiful","skips","daftpunk","onepiece");
-property1: viewtiful, 
-console.log(quotes.length);
-property2: skips,
-console.log(quotes.length);
-property3: daftpunk,
-console.log(quotes.length);
-property4: onepiece,
-console.log(quotes.length);
+var viewtiful = quotes
+console.log("Joe", viewtiful)
+var skips =  quotes
+console.log("gorila", skips)
+var daftpunk = quotes
+console.log("punkdaft", daftpunk)
+var onepiece = quotes
+console.log("joyboy", onepiece)
 
 /***
  * `getRandomQuote` function
